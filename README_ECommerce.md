@@ -41,7 +41,7 @@ Online retailers need to understand not just how much they're selling, but which
 ## Key Insights
 
 - **November 2011 was the peak sales month (£1.46M)**, likely driven by Black Friday and the start of the Christmas shopping season. December 2011 shows the lowest figure (£433,668), but this is misleading — the dataset only covers the first 9 days of December, not the full month.
-- **Cancellations represent 8.4% of gross sales** (£896,812 of £9.75M in gross purchases) — a meaningful but not alarming share of revenue.
+- **Cancellations represent 8.4% of gross sales** (£896,812 of roughly £10.64M in gross purchases) — a meaningful but not alarming share of revenue.
 - **UK's cancellation rate (9.1%) is low and highly stable**, backed by ~495,000 transactions. Singapore (57.1%), USA (51.7%), and Hong Kong (35.5%) show much higher rates, but each is based on fewer than 300 transactions — worth flagging as a signal for investigation, not a confirmed trend, given the small sample sizes.
 - **RFM segmentation reveals a small group of high-value customers drives most revenue.** Champions (608 customers, the smallest segment) generate £4.58M — more than the other three segments combined (£4.34M across 3,731 customers). Average spend per Champion (~£7,526) is nearly 15x that of an At Risk customer (~£510).
 - **At Risk is the largest segment by customer count (1,504)** but contributes the least revenue — a natural target for re-engagement campaigns given the volume of customers involved.
@@ -54,8 +54,8 @@ Python (Pandas) • Power BI Desktop • Power Query • DAX • RFM Customer Se
 ## Files in this Repository
 
 - `eda.py` — Python cleaning, analysis, and RFM segmentation script
-- `online_retail_cleaned.csv` — cleaned dataset with proper date types
-- `customer_rfm_segments.csv` — customer-level RFM scores and segments
 - `E-Commerce_Dashboard.pbix` — Power BI dashboard
 - `screenshots/` — dashboard page exports
 - `README.md` — this file
+
+Note: raw and cleaned dataset files are not included here due to size — the original dataset is linked above, and `eda.py` reproduces the cleaning and RFM segmentation output when run against it.
